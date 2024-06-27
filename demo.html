@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #demo{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            z-index: 1;
+            /* background-color: black; */
+        }
+        #demo .item{
+            width: 33.3333%;
+            position: relative;
+        }
+        #demo .item img{
+            height: 80vh;
+            width: 100%;
+            transition: all 1s;
+            z-index: 3;
+        }
+        #demo .item img:hover{
+            display: block;
+            transform: translateY(-150%);
+            display: block;
+        }   
+        #demo .item button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+        #demo .item:hover button{
+            display: block;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <div class="item">
+            <button>DEMO-PICTURE</button>
+            <img src="./img/bagback.png" alt="">
+        </div>
+        <div class="item">
+            <button>DEMO-PICTURE</button>
+            <img src="./img/bagback.png" alt="">
+        </div>
+        <div class="item">
+            <button>DEMO-PICTURE</button>
+            <img src="./img/bagback.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+/*      TABLET       */
+@media (min-width:729px) and (max-width: 1240px){
+nav .logo > .t-light,
+nav .logo > .tl-light{
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+}
+header nav{
+    height: 90px;
+}
+nav .info > .head-ul > li{
+    padding: 5px;
+}
+#banner{
+    height: 720px;
+}
+#new-arrival{
+    height: 600px;
+}
+#on-sale{
+    height: 80vh;
+    width: 100%;
+}
+#on-sale .goods{
+    width: 100%;
+}
+#about{
+    height: 80vh;
+}
+#about .about-content .center{
+    top: 40%;
+    padding: 0 15%;
+}
+#contact{
+    height: 65vh;
+
+}
+.text-input{
+    font-size: 0.9rem;
+}
+
+
+#footer{
+    height: 60vh;
+}
+#source {
+    height: 15vh;
+}
+#source .on-center{
+    width: 90%;
+    margin: auto;
+}
+
+}
+
+
+
+/*      MOBILE       */
+@media (max-width: 728px){
+    nav .logo > .t-light,
+    nav .logo > .tl-light{
+        font-size: 25px;
+        transform: translateY(25%);
+    }
+    nav .container{
+        display: block;
+    }
+    .container .info > ul{
+        display: block;
+    }
+    .container .info{
+        text-align: left;
+    } 
+    header nav{
+        height: 50px;
+        background-color: #000;
+        overflow: hidden;
+    }
+    .container input{
+        width: 90%;
+    }
+    #social{
+        display: none;
+    }
+    #mess{
+        display: none;
+    }
+    #mobile-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #ccc;
+        padding: 16px 16px;
+    }
+    #on-sale .goods{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #banner h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #shop-now{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+    #shop-now a{
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+}

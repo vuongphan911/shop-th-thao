@@ -100,6 +100,10 @@ nav .info > .head-ul > li{
         width: 80%;
         margin: auto;
     }
+    #banner{
+        height: 100vh;
+        width: 124%;
+    }
     #banner h1{
         font-size: 40px;
         text-align: center;

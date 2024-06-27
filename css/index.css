@@ -116,7 +116,7 @@ nav .info > .head-ul li a:hover{
 #shop-now{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5px;
-    width: 30%;
+    width: 256px;
 }
 #shop-now a{
     padding: 0 48px;

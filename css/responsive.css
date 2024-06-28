@@ -1,5 +1,5 @@
 /*      TABLET       */
-@media (min-width:729px) and (max-width: 1240px){
+@media (min-width:729px) and (max-width: 1140px){
 nav .logo > .t-light,
 nav .logo > .tl-light{
     font-size: 20px;
@@ -73,6 +73,9 @@ nav .info > .head-ul > li{
     .container .info{
         text-align: left;
     } 
+    header{
+        width:100vw;
+    }
     header nav{
         height: 50px;
         background-color: #000;
@@ -95,14 +98,9 @@ nav .info > .head-ul > li{
         background: #ccc;
         padding: 16px 16px;
     }
-    #on-sale .goods{
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
     #banner{
         height: 100vh;
-        width: 124%;
+        width: 137%;
     }
     #banner h1{
         font-size: 40px;
@@ -119,4 +117,113 @@ nav .info > .head-ul > li{
         margin: 0;
         text-align: center;
     }
+    #new-arrival{
+        width: 137%;
+        height: 70vh;
+    }
+    #new-arrival .text-arrival h1{
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+    }
+    #demo-pic{
+        width: 137%;
+        height: 50vh;
+    }
+    #on-sale{
+        width: 137%;
+        padding: 50px 0;
+        /* overflow: hidden; */
+        position: relative;
+    }
+    #on-sale .goods{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        padding: 50px 0;
+    }
+    #on-sale h1{
+        font-size: 50px;
+    }
+    #on-sale h2{
+        font-size: 35px;
+    }
+    .item-g{
+        width: 100%;
+        margin-top: 16px;
+    }
+    .item-g img{
+        width: 100%;
+    }
+    #on-sale .sale{
+        text-align: center;
+    }
+    .view-detail{
+        transform: translate(30%, -80%);
+    }
+    #about{
+        width: 137%;
+    }
+    #about .about-content{
+        width: 100%;
+    }
+    #about .about-content .center{
+        padding: 0 10%;
+    }
+    #contact{
+        width: 137%;
+    }
+    #contact .container-c{
+        width: 100%;
+        display: block;
+        height: fit-content;
+    }
+    .text-contact,
+    .info-contact{
+        width: 100%;
+    }
+    .container-c .text-contact{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .info-contact .send button{
+        width: 100%;
+    }
+    .info-contact .outline{
+        width: 80%;
+        margin: auto;
+    }
+    #footer{
+        width: 137%;
+    }
+    #footer h1{
+        font-size: 70px;
+    }
+    #footer h2{
+        font-size: 20px;
+    }
+    #source{
+        width: 137%;
+    }
+    #source .on-center{
+        width: 96%;
+        margin: auto;
+    }
+    #source .s-left,
+    #source .s-right{
+        width: 50%;
+    }
+
+    #source .s-right ul{
+        display: block;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
 }

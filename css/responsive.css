@@ -1,5 +1,5 @@
 /*      TABLET       */
-@media (min-width:729px) and (max-width: 1140px){
+@media (min-width:481px) and (max-width: 1024px){
 nav .logo > .t-light,
 nav .logo > .tl-light{
     font-size: 20px;
@@ -9,12 +9,20 @@ nav .logo > .tl-light{
 }
 header nav{
     height: 90px;
+    padding: 0 16px;
 }
 nav .info > .head-ul > li{
     padding: 5px;
 }
 #banner{
     height: 720px;
+}
+.text-arrival .show-content{
+    margin-left: 16px;
+}
+.view-detail{
+    padding: 15px;
+    transform: translate(0% , -90%);
 }
 #new-arrival{
     height: 600px;
@@ -58,7 +66,7 @@ nav .info > .head-ul > li{
 
 
 /*      MOBILE       */
-@media (max-width: 728px){
+@media only screen and (max-width: 480px){
     nav .logo > .t-light,
     nav .logo > .tl-light{
         font-size: 25px;
@@ -80,12 +88,13 @@ nav .info > .head-ul > li{
         height: 50px;
         background-color: #000;
         overflow: hidden;
+        max-width: 100%;
     }
     .container input{
         width: 90%;
     }
     #social{
-        display: none;
+        /* display: none; */
     }
     #mess{
         display: none;
@@ -100,7 +109,8 @@ nav .info > .head-ul > li{
     }
     #banner{
         height: 100vh;
-        width: 137%;
+        max-width: 100%;
+        width: 100%;
     }
     #banner h1{
         font-size: 40px;
@@ -118,7 +128,7 @@ nav .info > .head-ul > li{
         text-align: center;
     }
     #new-arrival{
-        width: 137%;
+        max-width: 100%;
         height: 70vh;
     }
     #new-arrival .text-arrival h1{
@@ -126,11 +136,11 @@ nav .info > .head-ul > li{
         margin-bottom: 25px;
     }
     #demo-pic{
-        width: 137%;
-        height: 50vh;
+        max-width: 100%;
     }
     #on-sale{
-        width: 137%;
+        /* width: 137%; */
+        max-width: 100%;
         padding: 50px 0;
         /* overflow: hidden; */
         position: relative;
@@ -159,10 +169,10 @@ nav .info > .head-ul > li{
         text-align: center;
     }
     .view-detail{
-        transform: translate(30%, -80%);
+        transform: translate(15%, -80%);
     }
     #about{
-        width: 137%;
+        max-width: 100%;
     }
     #about .about-content{
         width: 100%;
@@ -171,7 +181,7 @@ nav .info > .head-ul > li{
         padding: 0 10%;
     }
     #contact{
-        width: 137%;
+        max-width: 100%;
     }
     #contact .container-c{
         width: 100%;
@@ -194,7 +204,7 @@ nav .info > .head-ul > li{
         margin: auto;
     }
     #footer{
-        width: 137%;
+        max-width: 100%;
     }
     #footer h1{
         font-size: 70px;
@@ -202,8 +212,15 @@ nav .info > .head-ul > li{
     #footer h2{
         font-size: 20px;
     }
+    #footer input{
+        padding: 24px;
+    }
+    #footer a{
+        padding: 24px;
+    }
+
     #source{
-        width: 137%;
+        max-width: 100%;
     }
     #source .on-center{
         width: 96%;

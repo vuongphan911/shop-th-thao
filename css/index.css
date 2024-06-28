@@ -344,7 +344,7 @@ nav .info > .head-ul li a:hover{
  }  
  #on-sale{
     background-color: rgb(0,0,0);
-    /* height: 120vh; */
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -573,7 +573,7 @@ nav .info > .head-ul li a:hover{
     border: 2px solid #fff;
     outline: none;
     color: #fff;
-    padding: 24px 196px;
+    padding: 24px 190px;
 }
 #footer a{
     height: 30px;
@@ -581,7 +581,7 @@ nav .info > .head-ul li a:hover{
     border: 2px solid #fff;
     outline: none;
     color: #fff;
-    padding: 24px 220px;
+    padding: 24px 214px;
     text-decoration: none;
     display: flex;
     align-items: center;

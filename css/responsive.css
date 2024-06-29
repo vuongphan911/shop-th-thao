@@ -205,6 +205,7 @@ nav .info > .head-ul > li{
     }
     #footer{
         max-width: 100%;
+        text-align: center;
     }
     #footer h1{
         font-size: 70px;
@@ -243,6 +244,10 @@ nav .info > .head-ul > li{
     #demo-pic .item button{
         font-size: 1.2rem;
     }
+    #new-arrival .show-content h1{
+        font-size: 1.3rem;
+    }
+
 
 
 

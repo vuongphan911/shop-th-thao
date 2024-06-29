@@ -235,6 +235,15 @@ nav .info > .head-ul > li{
         display: block;
         text-align: center;
     }
+    #new-arrival .show-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #demo-pic .item button{
+        font-size: 1.2rem;
+    }
+
 
 
 
